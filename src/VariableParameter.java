@@ -10,11 +10,15 @@ public class VariableParameter {
 	 */
 	public static void main(final String[] args) {
 		final String[] strings = null;
-		for (final String string : strings) {
-			System.out.println(string);
-		}
+		// for (final String string : strings) {
+		// System.out.println(string);
+		// }
 
-		test(null);
+		test();
+		System.out.println("---------------------------");
+		// test(null);
+		// System.out.println("---------------------------");
+		test(null, null);
 		System.out.println("---------------------------");
 		test("aaaaa");
 		System.out.println("---------------------------");
